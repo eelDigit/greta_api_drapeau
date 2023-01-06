@@ -1,14 +1,14 @@
 import React from "react";
-import Logo from "../components/Logo";
 import Navigation from "../components/Navigation";
-const Home = () => {
+import Logo from "../components/Logo";
+const News = () => {
   return (
     <div>
       <Navigation />
       <Logo />
-      HOME
+      News
     </div>
   );
 };
 
-export default Home;
+export default News;
